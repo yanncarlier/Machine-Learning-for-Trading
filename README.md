@@ -25,11 +25,7 @@ In short: Independent variables = what you know/measure; Dependent variable = wh
 
 
 
-## Linear Regression
-
-https://blog.quantinsti.com/gold-price-prediction-using-machine-learning-python/  
-
-https://coinmarketcap.com/currencies/bitcoin/historical-data/
+### Install
 
 uv init
 uv run main.py 
