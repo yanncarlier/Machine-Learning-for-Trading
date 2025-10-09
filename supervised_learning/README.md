@@ -11,3 +11,7 @@ https://coinmarketcap.com/currencies/bitcoin/historical-data/
 ## Logistic Regression
 
 Linear regression is used to predict values of quantities as a linear function of the input values. When predicting a discrete variable, such as whether a grid of pixel intensities represents 0 or 1, we need to classify the input values. Logistic regression is a simple classification algorithm for learning to make such decisions. It is a model that is used when the dependent variable is categorical. 
+
+## K Nearest Neighbours (KNN)
+
+We will build a simple KNN classifier on trading data (SPY). The goal is to predict next-day direction using lagged returns.

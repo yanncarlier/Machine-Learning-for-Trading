@@ -25,9 +25,9 @@ In short: Independent variables = what you know/measure; Dependent variable = wh
 
 ### Install
 
-uv init
-uv run main.py 
-uv add numpy
-uv add pandas
-uv add scikit-learn
-uv run linear_regression.py
+uv init  
+uv run main.py  
+uv add numpy  
+uv add pandas  
+uv add scikit-learn  
+uv run linear_regression.py  
