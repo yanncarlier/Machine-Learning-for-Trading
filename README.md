@@ -1,8 +1,6 @@
 # Machine-Learning-for-Trading
 
-I'm taking a course from Quantra by QuantInsti:
-
-this are my notes and tests
+#### I'm taking a course from Quantra by QuantInsti: this are my notes and TESTING
 
 
 
