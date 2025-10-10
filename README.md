@@ -2,7 +2,7 @@
 
 #### I'm taking a course from Quantra by QuantInsti: this are my notes and TESTING
 
-
+https://github.com/QuantInsti  
 
 https://docs.astral.sh/uv/guides/projects/  
 
