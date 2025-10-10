@@ -105,7 +105,7 @@ def main():
     """Main function to run the linear regression analysis."""
     # Define data path
     # data_path = '../data/SPY.csv'
-    data_path = 'data/Bitcoin_08_08_2025-09_10_2025_historical_data_coinmarketcap.csv'
+    data_path = '../data/Bitcoin_08_08_2025-09_10_2025_historical_data_coinmarketcap.csv'
     # Load and prepare data
     df = load_and_prepare_data(data_path)
     # Split data into training and testing sets
@@ -118,7 +118,7 @@ def main():
     evaluate_model(y_test, y_pred)
     # Plot results and save to file
     plot_regression(X_test, y_test, y_pred,
-                    save_path='outputs/linear_regression.png')
+                    save_path='../outputs/linear_regression.png')
 
 
 if __name__ == "__main__":

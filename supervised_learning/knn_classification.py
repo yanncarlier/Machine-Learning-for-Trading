@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 import warnings
 warnings.filterwarnings('ignore')
 # Load data
-path = 'data/'
+path = '../data/'
 df = pd.read_csv(
     path + 'Bitcoin_08_08_2025-09_10_2025_historical_data_coinmarketcap.csv',
     sep=';',
@@ -91,7 +91,7 @@ plt.title('KNN — Decision Regions (Test set)')
 plt.xlim(x1_lo, x1_hi)
 plt.ylim(x2_lo, x2_hi)
 plt.tight_layout()
-plt.savefig('outputs/knn_classification.png', dpi=300, bbox_inches='tight')
+plt.savefig('../outputs/knn_classification.png', dpi=300, bbox_inches='tight')
 print("Plot saved as 'knn_decision_regions.png'")
 plt.close()
 # Interpreting the decision-region plot

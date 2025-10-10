@@ -9,9 +9,9 @@ import matplotlib.pyplot as plt
 plt.style.use('seaborn-v0_8-darkgrid')
 warnings.filterwarnings('ignore')
 # Load data
-path = 'data/'
+path = '../data/'
 df = pd.read_csv(
-    path + '/Bitcoin_08_08_2025-09_10_2025_historical_data_coinmarketcap.csv',
+    path + 'Bitcoin_08_08_2025-09_10_2025_historical_data_coinmarketcap.csv',
     sep=';',
     index_col=0
 )
@@ -63,8 +63,8 @@ plt.scatter(X_test[f1], X_test[f2], c=y_test, s=25, edgecolor='k', alpha=0.85)
 plt.xlabel(f1)
 plt.ylabel(f2)
 plt.title('Logistic Regression — Decision Regions (Test set)')
-plt.savefig('outputs/logistic_regression', dpi=300, bbox_inches='tight')
-print("Plot saved as 'decision_regions.png'")
+plt.savefig('../outputs/logistic_regression', dpi=300, bbox_inches='tight')
+print("Plot saved as 'logistic_regression.png'")
 plt.close()  # Close the figure to free memory
 # Key takeaways
 # What we built: A simple logistic regression that predicts next-day direction (0 = down, 1 = up) using lagged returns.

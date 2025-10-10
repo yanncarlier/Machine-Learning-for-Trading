@@ -16,7 +16,7 @@ from matplotlib.lines import Line2D
 import warnings
 warnings.filterwarnings('ignore')
 # Data load: CSV
-path = 'data/'
+path = '../data/'
 df = pd.read_csv(
     path + 'Bitcoin_08_08_2025-09_10_2025_historical_data_coinmarketcap.csv',
     sep=';',
@@ -113,8 +113,9 @@ plt.title('SVM — Decision Regions (Test set)')
 plt.xlim(x1_lo, x1_hi)
 plt.ylim(x2_lo, x2_hi)
 plt.tight_layout()
-plt.savefig('outputs/svm_decision_regions.png', dpi=300, bbox_inches='tight')
-print("Plot saved as 'outputs/svm_decision_regions.png'")
+plt.savefig('../outputs/svm_decision_regions.png',
+            dpi=300, bbox_inches='tight')
+print("Plot saved as 'svm_decision_regions.png'")
 plt.close()
 # SVM hyperplane (toy demo)
 # Optional: toy demo to show hyperplane & margins
@@ -135,6 +136,6 @@ plt.plot(xx, yy_down, 'k--')
 plt.scatter(X_toy[:, 0], X_toy[:, 1], c=y_toy, cmap=ListedColormap(
     ['#E86A0C', '#1E4FD7']), edgecolor='k')
 plt.title('SVM hyperplane (toy data)')
-plt.savefig('outputs/svm_toy_hyperplane.png', dpi=300, bbox_inches='tight')
-print("Toy plot saved as 'outputs/svm_toy_hyperplane.png'")
+plt.savefig('../outputs/svm_toy_hyperplane.png', dpi=300, bbox_inches='tight')
+print("Toy plot saved as 'svm_toy_hyperplane.png'")
 plt.close()
