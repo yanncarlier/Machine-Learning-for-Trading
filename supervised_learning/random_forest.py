@@ -41,7 +41,7 @@ warnings.filterwarnings("ignore")
 # Import Data
 # We will read the daily data of Bitcoin, to create features.
 # The data is stored in the directory 'data'
-path = '../data/'
+path = './data/'
 # Read stock data from csv file
 df = pd.read_csv(
     path + 'Bitcoin_08_08_2025-09_10_2025_historical_data_coinmarketcap.csv',

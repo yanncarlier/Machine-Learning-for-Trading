@@ -17,7 +17,7 @@ plt.style.use('seaborn-v0_8-darkgrid')
 warnings.filterwarnings("ignore")
 # Read S&P 500 Data
 # The data is stored in the directory 'data'
-path = '../data/'
+path = './data/'
 # Read the csv file using read_csv method of pandas
 df = pd.read_csv(
     path + 'Bitcoin_08_08_2025-09_10_2025_historical_data_coinmarketcap.csv',
@@ -77,7 +77,7 @@ plt.ylabel("Cumulative Returns")
 plt.xlabel("Date")
 # Plot geometric returns
 df['cumulative_returns'].plot(figsize=(15, 7), color='g')
-plt.savefig('outputs/svc_strategy.png', dpi=300, bbox_inches='tight')
+plt.savefig('./outputs/svc_strategy.png', dpi=300, bbox_inches='tight')
 print("Plot saved as 'svc_strategy.png'")
 plt.show()
 # As seen from the graph, the strategy generates a return of approximately 10.38% in the test data set.
