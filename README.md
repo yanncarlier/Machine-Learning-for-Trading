@@ -10,6 +10,25 @@ https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8
 
 
 
+### Supervised learning
+
+1. Linear model
+2. Support vector machines
+3. Random forest
+4. Artificial neural network
+
+### Unsupervised learning 
+
+1. K-means clustering
+
+### Reinforcement learning
+
+1. Helps in solving common financial market prediction problems
+
+
+
+
+
 #### Simple Explanation of Independent and Dependent Variables in Machine Learning
 
 Imagine you're trying to predict house prices. You look at factors like the house's size, number of bedrooms, and location to guess the price. In machine learning, this is like building a model that learns patterns from data to make predictions.
